@@ -1,14 +1,11 @@
-import { Wrapper } from '../styles/pages/Home';
-import { BannerFullWidth } from '../components/BannerFull';
+import { BannerFullWidth } from "../components/BannerFull";
 
-export default function Home() {
-
+function Home() {
   return (
     <>
       <BannerFullWidth />
-      <Wrapper>
-      </Wrapper>
     </>
-
-  )
+  );
 }
+
+export default Home;

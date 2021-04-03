@@ -26,15 +26,7 @@ export const BannerFullWidth = () => {
                         src="/images/Banners/Banner__1.jpg"
                         alt="Banner 1"
                         layout="fill"
-                        quality={100}
-                    />
-                </ContainerImage>
-
-                <ContainerImage>
-                    <Image
-                        src="/images/Banners/Banner__2.jpg"
-                        alt="Banner 1"
-                        layout="fill"
+                        objectFit="cover"
                         quality={100}
                     />
                 </ContainerImage>

@@ -1,8 +1,7 @@
 import style from 'styled-components';
 
-
 export const BannerFull = style.div`
-
+    margin-bottom: 24px;
     & .slick-dots {
         bottom: 1.25rem;
         li{

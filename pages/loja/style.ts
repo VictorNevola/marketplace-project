@@ -1,5 +1,6 @@
 import style from 'styled-components';
 
+
 export const Wrapper = style.main`
     max-width: 1240px;
     margin: 0px auto;
@@ -22,5 +23,3 @@ export const TitleCarrouselProducts = style.h2`
     margin-top: 0;
     margin-bottom: 2rem;
 `
-
-

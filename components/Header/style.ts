@@ -1,6 +1,5 @@
 import style from 'styled-components';
 
-
 export const Header = style.header`
     display: block;
     padding: 6px 0px;
@@ -8,7 +7,7 @@ export const Header = style.header`
     background-color: rgb(255, 255, 255);
 `
 export const Wrapper = style.div`
-    max-width: 1440px;
+    max-width: 1240px;
     margin: 0px auto;
     position: relative;
     padding: 0px 1rem;
@@ -23,6 +22,10 @@ export const ContainerFlex = style.div`
     display: flex;
     align-items: center;
 `
+
+export const Logo = style.a`
+    cursor: pointer;
+`;
 
 export const MenuList = style.ul`
     display: flex;
