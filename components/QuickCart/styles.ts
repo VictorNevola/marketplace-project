@@ -35,6 +35,10 @@ export const ModalContainer = style.div`
     & .slick-dots {
         bottom: -28px;
 
+        @media (min-width: 0px) and (max-width: 600px) {
+            bottom: 0px;
+        }
+
         & li button {
             &::before {
                 background: #000;

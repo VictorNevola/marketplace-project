@@ -36,7 +36,6 @@ export const QuickCart = ({ images, isActive, infos, closeQuickCart }: PropsQuic
                         Ao clicar em comprar, você será direcionado ao WhatsApp do Vendedor para dar continuidade.
                     </SmallInfo>
 
-
                     <BtnBuy>
                         Comprar
                     </BtnBuy>

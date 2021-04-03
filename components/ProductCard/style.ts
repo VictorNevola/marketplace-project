@@ -32,12 +32,8 @@ export const Info = style.span`
 `
 
 export const Price = style.div`
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-bottom: .125rem;
-    flex-wrap: wrap;
-
+    text-align: center;
 `
 
 export const PriceOld = style.span`

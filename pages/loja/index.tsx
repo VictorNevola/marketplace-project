@@ -27,14 +27,17 @@ function Loja({ ProductsPromptDeveliry }) {
         alt: productSelected.ref
       }
     });
-
-    setImagesProductForQuickCart(imageProductSelected);
+    
     setInfosProductForQuickCart({
       name: productSelected.name,
       description: productSelected.descrption,
       newPrice: productSelected.newPrice,
       oldPrice: productSelected.oldPrice
     });
+
+    await Promise.all(imageProductSelected);
+
+    setImagesProductForQuickCart(imageProductSelected);
     setActiveModal(true);
   };
 
