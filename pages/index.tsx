@@ -3,7 +3,7 @@ import { BannerFullWidth } from "../components/BannerFull";
 function Home() {
   return (
     <>
-      <BannerFullWidth arrowsActive={false} images={
+      <BannerFullWidth fullWidth={true} arrowsActive={false} images={
         [{
           src: "/images/Banners/Banner__1.jpg",
           alt: "Banner_1"

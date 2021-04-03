@@ -11,6 +11,7 @@ export const ProductCard = ({ name, newPrice, oldPrice, images, openQuickCart, r
         alt={name}
         width={300}
         height={300}
+        objectFit="contain"
       />
       <Title> 
         {name}

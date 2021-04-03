@@ -4,42 +4,55 @@
         "ref": "quad-1",
         "oldPrice": 1248,
         "newPrice": 900,
-        "images": ["/images/Products/Cavalo-80x120cm.jpg", "/images/Products/Cavalo-80x120cm.jpg", "/images/Products/Cavalo-80x120cm.jpg"],
+        "images": ["/images/Products/Cavalo-80x120cm.jpg", "/images/Products/Cavalo-2-80x120cm.jpg"],
         "descrption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
-        "name": "Quadro Cavalo - 80x120cm",
+        "name": "Quadro Headphone - 80x60cm",
         "ref": "quad-2",
-        "oldPrice": 1248,
-        "newPrice": 900,
-        "images": ["/images/Products/Cavalo-80x120cm.jpg"]
+        "oldPrice": 625,
+        "newPrice": 550,
+        "images": ["/images/Products/Headphone-80x60cm.jpg", "/images/Products/Headphone-2-80x60cm.jpg"],
+        "descrption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
-        "name": "Quadro Cavalo - 80x120cm",
+        "name": "Índio com Tucano - 100x150cm",
         "ref": "quad-3",
-        "oldPrice": 1248,
-        "newPrice": 900,
-        "images": ["/images/Products/Cavalo-80x120cm.jpg"]
+        "oldPrice": 1950,
+        "newPrice": 1500,
+        "images": ["/images/Products/Índio-com-Tucano-100x150cm.jpg", "/images/Products/Índio-com-Tucano-2-100x150cm.jpg"],
+        "descrption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
-        "name": "Quadro Cavalo - 80x120cm",
+        "name": "Leão - 140x140cm",
         "ref": "quad-4",
-        "oldPrice": 1248,
-        "newPrice": 900,
-        "images": ["/images/Products/Cavalo-80x120cm.jpg"]
+        "oldPrice": 2900,
+        "newPrice": 2550,
+        "images": ["/images/Products/Leão-140x140cm.jpg"],
+        "descrption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
-        "name": "Quadro Cavalo - 80x120cm",
+        "name": "Model - 50x140cm",
         "ref": "quad-5",
-        "oldPrice": 1248,
-        "newPrice": 900,
-        "images": ["/images/Products/Cavalo-80x120cm.jpg"]
+        "oldPrice": 900,
+        "newPrice": 700,
+        "images": ["/images/Products/Model-50x140cm.jpg"],
+        "descrption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
-        "name": "Quadro Cavalo - 80x120cm",
+        "name": "Rasgos - MDF 200x120cm",
         "ref": "quad-6",
-        "oldPrice": 1248,
-        "newPrice": 900,
-        "images": ["/images/Products/Cavalo-80x120cm.jpg"]
+        "oldPrice": 3500,
+        "newPrice": 3000,
+        "images": ["/images/Products/Rasgos-MDF-200x120cm.jpg", "/images/Products/Rasgos-MDF-2-200x120cm.jpg", "/images/Products/Rasgos-MDF-3-200x120cm.jpg", "/images/Products/Rasgos-MDF-4-200x120cm.jpg"],
+        "descrption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+        "name": "RASGOS - 100x150cm",
+        "ref": "quad-7",
+        "oldPrice": 1950,
+        "newPrice": 1500,
+        "images": ["/images/Products/RASGOS-100x150cm.jpg"],
+        "descrption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     }
 ]

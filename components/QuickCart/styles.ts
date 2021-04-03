@@ -25,14 +25,15 @@ export const ModalContainer = style.div`
     background: rgb(255,255,255);
     border-radius: 2px;
     padding: 24px;
+    padding-bottom: 36px;
 
     @media (min-width: 0px) and (max-width: 600px) {
         height: 100%;
         overflow: auto;
     }
-    
+
     & .slick-dots {
-        bottom: -12px;
+        bottom: -28px;
 
         & li button {
             &::before {
@@ -52,6 +53,7 @@ export const Images = style.aside`
     @media (min-width: 0px) and (max-width: 600px) {
         max-width: 100%;
         margin: 22px 0px;
+        margin-bottom: 46px;
     }
 
 `

@@ -5,5 +5,6 @@ interface ImageProps {
 
 export interface PropsBanner {
     images: Array<ImageProps>,
-    arrowsActive: boolean
+    arrowsActive: boolean,
+    fullWidth: boolean,
 }

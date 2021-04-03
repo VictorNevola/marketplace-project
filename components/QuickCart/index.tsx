@@ -11,7 +11,7 @@ export const QuickCart = ({ images, isActive, infos, closeQuickCart }: PropsQuic
                 <BtnClose onClick={() => closeQuickCart()}> X </BtnClose>
 
                 <Images>
-                    <BannerFullWidth arrowsActive={false} images={images} />
+                    <BannerFullWidth fullWidth={false} arrowsActive={false} images={images} />
                 </Images>
 
                 <Infos>

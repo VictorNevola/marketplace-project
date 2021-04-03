@@ -6,7 +6,7 @@ import { BannerFull,  ContainerImage} from './style';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-export const BannerFullWidth = ( { images, arrowsActive }: PropsBanner ) => {
+export const BannerFullWidth = ( { images, arrowsActive, fullWidth }: PropsBanner ) => {
 
     const settings = {
         dots: true,
@@ -29,7 +29,7 @@ export const BannerFullWidth = ( { images, arrowsActive }: PropsBanner ) => {
                                     src={image.src}
                                     alt={image.alt}
                                     layout="fill"
-                                    objectFit="cover"
+                                    objectFit={fullWidth ? "cover" : "contain"}
                                     quality={100}
                                 />
                             </ContainerImage>
