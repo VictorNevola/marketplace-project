@@ -1,4 +1,4 @@
-import { Wrapper, ContainerProducts, TitleCarrouselProducts } from "./style";
+import { Wrapper, ContainerProducts, TitleCarrouselProducts } from "../../styles/pages/Loja";
 import { CarrouselProducts } from "../../components/CarrouselProducts";
 import { QuickCart } from "../../components/QuickCart";
 import ProductsPromptDeveliry from "../../data/products-prompt-delivery.json";

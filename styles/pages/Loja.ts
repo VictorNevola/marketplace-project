@@ -1,6 +1,5 @@
 import style from 'styled-components';
 
-
 export const Wrapper = style.main`
     max-width: 1240px;
     margin: 0px auto;
