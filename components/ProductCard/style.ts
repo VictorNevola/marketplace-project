@@ -1,7 +1,8 @@
 import style from "styled-components";
 
 export const Article = style.article`
-    // border: 1px solid red;
+
+    margin-right: 8px;
 `
 
 export const Title = style.h1`
@@ -35,6 +36,8 @@ export const Price = style.div`
     align-items: center;
     justify-content: center;
     margin-bottom: .125rem;
+    flex-wrap: wrap;
+
 `
 
 export const PriceOld = style.span`
@@ -69,5 +72,25 @@ export const PriceInstallments = style.span`
 
 export const StrongInstallments = style.strong`
     font-weight: 600;    
+`
 
+export const ViewDetails = style.button`
+    display: block;
+    max-width: 20.625rem;
+    width: 100%;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 2.25rem;
+    text-align: center;
+    border: none;
+    margin: 0 auto;
+    padding: 4px;
+    margin-top: 12px;
+    color: #404141;
+    transition: all .4s ease-out;
+
+    &:hover {
+        color: #000
+    }
 `

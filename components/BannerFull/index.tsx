@@ -1,16 +1,16 @@
 
 import Image from 'next/image';
 import Slider from "react-slick";
-
+import { PropsBanner } from './types';
 import { BannerFull,  ContainerImage} from './style';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-export const BannerFullWidth = () => {
+export const BannerFullWidth = ( { images, arrowsActive }: PropsBanner ) => {
 
     const settings = {
         dots: true,
-        arrow: false,
+        arrows: arrowsActive,
         infinite: false,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -21,15 +21,21 @@ export const BannerFullWidth = () => {
 
             <Slider {...settings}>
 
-                <ContainerImage>
-                    <Image
-                        src="/images/Banners/Banner__1.jpg"
-                        alt="Banner 1"
-                        layout="fill"
-                        objectFit="cover"
-                        quality={100}
-                    />
-                </ContainerImage>
+                {
+                    images.map((image, index) => {
+                        return(
+                            <ContainerImage key={index}>
+                                <Image
+                                    src={image.src}
+                                    alt={image.alt}
+                                    layout="fill"
+                                    objectFit="cover"
+                                    quality={100}
+                                />
+                            </ContainerImage>
+                        )
+                    })
+                }
 
             </Slider>
 

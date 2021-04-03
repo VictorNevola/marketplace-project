@@ -3,9 +3,11 @@ interface product {
     name: string,
     oldPrice: number,
     newPrice: number,
-    images: [string]
+    images: [string],
+    ref: string
 }
 
 export interface ProductsInterface {
-    products: [product]
+    products: [product],
+    activeQuickCart: Function;
 }

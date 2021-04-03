@@ -1,9 +1,9 @@
 import Image from 'next/image';
 
 import { product } from "./types";
-import { Article, Title, Info, Price, PriceOld, PriceNew, PriceInstallments, StrongInstallments } from "./style";
+import { Article, Title, Info, Price, PriceOld, PriceNew, PriceInstallments, StrongInstallments, ViewDetails } from "./style";
 
-export const ProductCard = ({ name, newPrice, oldPrice, images }: product) => {
+export const ProductCard = ({ name, newPrice, oldPrice, images, openQuickCart, refID }: product) => {
   return (
     <Article>
       <Image
@@ -26,6 +26,11 @@ export const ProductCard = ({ name, newPrice, oldPrice, images }: product) => {
       <PriceInstallments> 
         até <StrongInstallments>5x</StrongInstallments> de <StrongInstallments>{(newPrice / 5).toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}) }</StrongInstallments>
       </PriceInstallments>
+
+      <ViewDetails onClick={() => {openQuickCart(refID)}}> 
+        Ver detalhes
+      </ViewDetails>
+
     </Article>
   );
 };

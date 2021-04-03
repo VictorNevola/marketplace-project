@@ -1,36 +1,43 @@
 [
     {
         "name": "Quadro Cavalo - 80x120cm",
+        "ref": "quad-1",
+        "oldPrice": 1248,
+        "newPrice": 900,
+        "images": ["/images/Products/Cavalo-80x120cm.jpg", "/images/Products/Cavalo-80x120cm.jpg", "/images/Products/Cavalo-80x120cm.jpg"],
+        "descrption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+        "name": "Quadro Cavalo - 80x120cm",
+        "ref": "quad-2",
         "oldPrice": 1248,
         "newPrice": 900,
         "images": ["/images/Products/Cavalo-80x120cm.jpg"]
     },
     {
         "name": "Quadro Cavalo - 80x120cm",
+        "ref": "quad-3",
         "oldPrice": 1248,
         "newPrice": 900,
         "images": ["/images/Products/Cavalo-80x120cm.jpg"]
     },
     {
         "name": "Quadro Cavalo - 80x120cm",
+        "ref": "quad-4",
         "oldPrice": 1248,
         "newPrice": 900,
         "images": ["/images/Products/Cavalo-80x120cm.jpg"]
     },
     {
         "name": "Quadro Cavalo - 80x120cm",
+        "ref": "quad-5",
         "oldPrice": 1248,
         "newPrice": 900,
         "images": ["/images/Products/Cavalo-80x120cm.jpg"]
     },
     {
         "name": "Quadro Cavalo - 80x120cm",
-        "oldPrice": 1248,
-        "newPrice": 900,
-        "images": ["/images/Products/Cavalo-80x120cm.jpg"]
-    },
-    {
-        "name": "Quadro Cavalo - 80x120cm",
+        "ref": "quad-6",
         "oldPrice": 1248,
         "newPrice": 900,
         "images": ["/images/Products/Cavalo-80x120cm.jpg"]

@@ -21,6 +21,8 @@ export const Main = style.main`
 export const ContainerFlex = style.div`
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 `
 
 export const Logo = style.a`
@@ -41,5 +43,6 @@ export const MenuLink = style.li`
         font-size: 18px;
         line-height: 28px;
         transition: all .4s ease;
+        font-weight: 600;   
     }
 `;

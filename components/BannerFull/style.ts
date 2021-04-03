@@ -1,7 +1,7 @@
 import style from 'styled-components';
 
 export const BannerFull = style.div`
-    margin-bottom: 24px;
+
     & .slick-dots {
         bottom: 1.25rem;
         li{
@@ -45,7 +45,6 @@ export const BannerFull = style.div`
 
 export const ContainerImage = style.div`
     position: relative;
-    max-width: 1920px;
     width: 100%;
     height: 400px;
     margin: 0 auto;

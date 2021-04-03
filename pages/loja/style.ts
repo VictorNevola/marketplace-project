@@ -10,6 +10,10 @@ export const Wrapper = style.main`
 
 export const ContainerProducts = style.section`
     margin-bottom: 24px;
+
+    & .slick-prev:before, .slick-next:before {
+        color: #000;
+    }
 `
 
 export const TitleCarrouselProducts = style.h2`
